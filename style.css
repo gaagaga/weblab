@@ -1,4 +1,56 @@
-div {
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+.u-colour {
     font-size: 40pt;
-    color:aqua;
+    color:var(--primaryL);
+}
+
+.u-textCenter{
+    text-align: center;
+}
+
+.centeredImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:var(--m);
+}
+html,
+body{
+    margin: 0;
+        font-family: "ZCOOL KuaiLe", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+:root {
+    --primaryL: #396dff;
+    --grey: #f7f7f7;
+    --white: #fff;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+.navTitle{
+    color:var(--white);
+    font-size: 20px;
+    margin:0;
+    font-weight: normal;
+}
+
+.navContainer{
+    padding: var(--s) var(--m);
+    background-color:var(--primaryL);
+
+}
+
+.u-flex{
+    display: flex;
+}
+
+.subContainer{
+    flex-basis: 0;
+    flex-grow: 1;
 }
